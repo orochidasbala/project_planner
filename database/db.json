@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": 2,
+      "project": "designer",
+      "details": "I am web designer of creative coder",
+      "complete": true
+    },
+    {
+      "id": 3,
+      "project": "web developer - backend",
+      "details": "I am backend developer of creative coder",
+      "complete": true
+    },
+    {
+      "id": 4,
+      "project": "web developer - frontend",
+      "details": "I am frontend developer of creative coder",
+      "complete": true
+    },
+    {
+      "project": "Graphic Designer",
+      "details": "I am a graphic designer for the whole website of creative coder team",
+      "complete": true,
+      "id": 5
+    },
+    {
+      "project": "hnin zuhlaing",
+      "details": "She is my crush for more than two years ago and now",
+      "complete": true,
+      "id": 6
+    }
+  ]
+}
