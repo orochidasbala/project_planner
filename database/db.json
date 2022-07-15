@@ -2,9 +2,9 @@
   "projects": [
     {
       "id": 2,
-      "project": "designer",
+      "project": "upd designer",
       "details": "I am web designer of creative coder",
-      "complete": true
+      "complete": false
     },
     {
       "id": 3,
@@ -16,7 +16,7 @@
       "id": 4,
       "project": "web developer - frontend",
       "details": "I am frontend developer of creative coder",
-      "complete": true
+      "complete": false
     },
     {
       "project": "Graphic Designer",
@@ -25,10 +25,16 @@
       "id": 5
     },
     {
-      "project": "hnin zuhlaing",
-      "details": "She is my crush for more than two years ago and now",
+      "project": "This is 15 july 2022",
+      "details": "course day",
+      "complete": false,
+      "id": 7
+    },
+    {
+      "project": "ma yu yu aye",
+      "details": "office staff of ptc\n",
       "complete": true,
-      "id": 6
+      "id": 8
     }
   ]
 }

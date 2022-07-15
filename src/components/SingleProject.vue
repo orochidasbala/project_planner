@@ -10,7 +10,7 @@
 					<router-link :to="{name:'editProject', params:{id:project.id}}">
                         <span class="fa-solid fa-pen"></span>
                     </router-link>
-					<span class="fa-solid fa-check" @click="completeProject"></span>
+					<span class="fa-solid fa-check" @click="completeProject"  :class="{compCheck:project.complete}"></span>
 				</div>
 			</div>
         </div>
@@ -68,7 +68,7 @@ export default {
 </script>
 
 
-<style>
+<style scoped>
 .flexing {
   display: flex;
   justify-content: space-between;
@@ -81,27 +81,34 @@ export default {
   border-left: 5px solid crimson;
 }
 .comp {
-  border-left: 6px solid rgb(0, 137, 172);
+  border-left: 6px solid rgb(0, 185, 62);
 }
 .title {
-  background-color: rgb(192, 100, 228);
-  padding: 10px 20px;
+  background-color: #eee;
+  padding: 20px 20px;
   border-radius: 0 7px 7px 0;
 }
 span {
   margin-left: 10px;
-  color: #ddd;
+  color: #555;
 }
 span:hover {
   cursor: pointer;
-  color: #bbb;
+  color: #333;
+}
+.fa-check {
+  color: crimson;
+}
+.compCheck {
+  color: rgb(63, 150, 6);
+  font-weight: bolder;
 }
 .detail {
   padding: 20px 20px;
   border: none;
 }
 h3 {
-  color: rgb(255, 255, 255);
+  color: #555;
   text-transform: uppercase;
   letter-spacing: 2px;
   cursor: pointer;

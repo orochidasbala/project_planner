@@ -47,7 +47,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .formStyle {
   display: flex;
   justify-content: center;

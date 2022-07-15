@@ -9,8 +9,8 @@ export default {};
 </script>
 <style>
 .main-nav {
-	margin: 40px auto;
-    text-align: center;
+	margin: 40px 5px;
+    text-align: left;
 }
 .main-nav a {
 	display: inline-block;

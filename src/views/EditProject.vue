@@ -60,6 +60,58 @@ export default {
 	}
 }
 </script>
-<style>
-	
+<style scoped>
+.formStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 40px;
+  margin-top: 10px;
+  background-color: rgba(199, 199, 199, 0.432);
+  display: inline-block;
+  max-width: auto;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-family: arial;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: grey;
+  margin: 10px 0px;
+  font-family: arial;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+input,
+textarea {
+  background-color: #fff;
+  border: none;
+  color: rgb(104, 104, 104);
+  border-radius: 6px;
+  padding: 12px;
+  width: 526px;
+  font-size: 14px;
+  font-family: monospace;
+}
+button {
+  border: none;
+  background-color: rgb(192, 100, 228);
+  margin-top: 20px;
+  border-radius: 8px;
+  padding: 14px 0;
+  color: white;
+  width: 550px;
+  font-family: arial;
+  font-weight: bold;
+}
 </style>
